@@ -1,0 +1,159 @@
+.navbar {
+	padding-top: 15px;
+	min-height: 80px;
+}
+
+.navbar-default {
+	background-color: white;
+	border-color: white;
+}
+
+.navbar-brand {
+	padding: 4px 15px;
+}
+
+.img-responsive.om-logo {
+	max-height: 40px;
+	width: auto;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: #FBAD40;
+    background-color: transparent;
+}
+
+.welcome-container {
+  height: -moz-calc(100% - 120px); /* Firefox */
+  height: -webkit-calc(100% - 120px); /* Chrome, Safari */
+  height: calc(100% - 120px); /* IE9+ and future browsers */
+}
+
+@media (max-width: 375px) {
+	.orange-tree {
+		height: 200px;
+	}
+}
+
+@media (min-width: 480px) and (max-width: 767px) {
+	.welcome-container {
+		height: auto;
+	}
+}
+
+.welcome-content {
+	padding: 5% 0;
+}
+
+.orange-tree {
+	display: block;
+	margin: auto;
+}
+
+.welcome-mat {
+	text-align: center;
+    color: #FE5000;
+}
+
+.my-step {
+	text-align: center;
+	overflow: hidden;
+  	height: -moz-calc(50% - 10px); /* Firefox */
+  	height: -webkit-calc(50% - 10px); /* Chrome, Safari */
+  	height: calc(50% - 10px); /* IE9+ and future browsers */
+  	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	-webkit-box-align: center;
+
+	align-items: center;
+}
+
+@media (min-width: 480px) and (max-width: 767px) {
+	.my-step {
+		height: -moz-calc(100% - 10px); /* Firefox */
+  		height: -webkit-calc(100% - 10px); /* Chrome, Safari */
+  		height: calc(100% - 10px); /* IE9+ and future browsers */
+	}
+}
+
+.odd-step {
+	background-color: #FE5000;
+	color: white;
+}
+
+.step-text {
+	width: 70%;
+	margin: auto;
+}
+
+@media (max-width: 375px) {
+	.step-text {
+		width: 90%;
+	}
+}
+
+.ebtn {
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 2;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  color: black;
+  border-color: black;
+  background-color: white;
+}
+
+.wpcf7-submit {
+	color: #FE5000;
+	background-color: white;
+  	border-color: #FE5000;
+}
+
+.btn-login{
+  background-color: #FE5000;
+  border-color: #FE5000;
+}
+
+.btn-login > a {
+	color: white;
+	text-decoration: none;
+}
+
+.btn-login:hover, .btn-login:focus {
+  background-color: white;
+}
+
+.btn-login:hover > a, .btn-login:focus > a {
+  color: #FE5000;
+}
+
+footer {
+  font-size: 0.8em;
+  text-align: center;
+  color: #d1d1d1;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  border-top: 1px solid #e5e5e5;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+  background: none repeat scroll 0 0 white;
+}
+
