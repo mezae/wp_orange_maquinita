@@ -22,3 +22,13 @@ function elmer_theme_setup() {
 add_action('init', 'elmer_theme_setup');
 
 add_theme_support('post-formats');
+
+// Replaces the excerpt "more" text by a link
+function new_excerpt_more($more) {
+       global $post;
+	return '<a class="moretag" href="'. get_permalink($post->ID) . '"> Read on...</a>';
+}
+add_filter('excerpt_more', 'new_excerpt_more');
+
+//walker to properly style navbar menu
+require get_template_directory() . '/inc/walker.php';

@@ -24,7 +24,9 @@
 							<?php 
 								wp_nav_menu(array(
 									'theme_location' => 'primary',
-									'menu_class' => 'nav navbar-nav navbar-left'
+									'container' => false,
+									'menu_class' => 'nav navbar-nav navbar-left',
+									'walker' => new Walker_Nav_Primary()
 									)); 
 							?>
 							<div class="navbar-right">
